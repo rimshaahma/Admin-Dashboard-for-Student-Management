@@ -25,7 +25,6 @@ This project implements an **Admin Dashboard** using PHP, HTML, CSS, and MySQL t
    - Displays an error if any field is empty or invalid.
    - Handles cases where a record is not found in the database.
 
-
 ## Setup Instructions
 1. **Database Setup**:
    - Create a MySQL database named `student_management`.
@@ -49,7 +48,7 @@ This project implements an **Admin Dashboard** using PHP, HTML, CSS, and MySQL t
      INSERT INTO admin (email, password) VALUES ('admin@example.com', 'password123');
      ```
 
-2. **Configure `db.php`**:
+2. **Configure `dashboard.php`**:
    - Add your database credentials:
      ```php
      $servername = "localhost";
@@ -67,7 +66,7 @@ This project implements an **Admin Dashboard** using PHP, HTML, CSS, and MySQL t
 3. **Run the Application**:
    - Start your local server (e.g., XAMPP or WAMP).
    - Place the project folder in the `htdocs` directory.
-   - Open your browser and navigate to `http://localhost/project/signin.php`.
+   - Open your browser and navigate to `http://localhost/project/login.php`.
 
 ## How It Works
 ### 1. **Sign In**:
@@ -94,11 +93,14 @@ This project implements an **Admin Dashboard** using PHP, HTML, CSS, and MySQL t
 - Displays all student records in a tabular format.
 
 ## Output Examples
+### Admin Login Page
+![Admin Login Page](admin.PNG)
+
 ### Dashboard View
-![Dashboard Output](output.png)
+![Dashboard Output](output.PNG)
 
 ### Student Records Table
-![Student Records Table](tablee.png)
+![Student Records Table](table.PNG)
 
 ## Key Concepts Covered
 1. **PHP and MySQL Integration**:
