@@ -100,7 +100,7 @@ This project implements an **Admin Dashboard** using PHP, HTML, CSS, and MySQL t
 ![Dashboard Output](output.PNG)
 
 ### Student Records Table
-![Student Records Table](table.PNG)
+![Student Records Table](tablee.PNG)
 
 ## Key Concepts Covered
 1. **PHP and MySQL Integration**:
